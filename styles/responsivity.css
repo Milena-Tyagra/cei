@@ -1,0 +1,80 @@
+@media (max-width: 450px) {
+  /* home classes */
+  header {
+    flex-direction: column;
+  }
+
+  .history, .video {
+    flex-direction: column-reverse;
+  }
+
+  .find-us {
+    flex-direction: column;
+  }
+
+  .title,
+  .history p,
+  .place, 
+  .youtube-video,
+  .frame {
+    width: 100vw !important;
+  }
+
+  .place, 
+  .youtube-video {
+    height: 200px !important;
+  }
+
+  .place, 
+  .title-frame {
+    margin-left: 20px;
+    width: 80vw !important;
+  }
+
+  .benefits {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 650px) {
+  .contact {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 65vw;
+  }
+}
+
+@media (max-width: 750px) {
+  /* services classes */
+  .services {
+    width: 90vw;
+  }
+
+  .service {
+    width: 30vw;
+    height: 150px;
+  }
+
+  .service img {
+    width: 25vw;
+  }
+
+  .other-services {
+    flex-direction: column;
+  }
+
+  li {
+    width: 80vw;
+    font-size: 20px;
+  }
+
+  ul:last-child {
+    margin-top: -15px;
+  }
+}
+
+
+
