@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services {
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.service {
+  width: 20vw;
+  height: 200px;
+  background-color: #fff;
+  border: 1px solid #2ea44f;
+  border-radius: 25px;
+  padding: 25px 15px 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+.service img {
+  width: 18vw;
+  height: 150px;
+  border-radius: 25px;
+}
+
+.other-services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  font-size: 30px;
+  width: 35vw;
+}
